@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FARS — Event Chart Concordance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="mast">
+      <div>
+        <p class="kicker">Finance Astrology Research Software</p>
+        <h1>Event Chart Concordance</h1>
+        <p class="lede">Type each event into the installed Jagannatha Hora 7.66, read the chart that program calculates, and rank what repeats.</p>
+      </div>
+      <div class="mast-meta" id="health">Looking for JHora…</div>
+    </header>
+
+    <section class="workspace">
+      <aside class="rail">
+        <div class="panel">
+          <h2>Study</h2>
+          <label class="field">
+            <span>Name</span>
+            <input id="studyName" type="text" value="Recent magnitude 6+ earthquakes" />
+          </label>
+          <label class="field">
+            <span>Minimum repeat to highlight</span>
+            <select id="minShare">
+              <option value="0.25" selected>25%</option>
+              <option value="0.35">35%</option>
+              <option value="0.50">50%</option>
+              <option value="0.60">60%</option>
+            </select>
+          </label>
+          <div class="actions">
+            <button type="button" class="btn primary" id="btnAnalyze">Analyze similarities</button>
+            <button type="button" class="btn" id="btnSave">Save project</button>
+            <button type="button" class="btn" id="btnPrint">Print / PDF report</button>
+          </div>
+          <label class="field">
+            <span>Open a saved project</span>
+            <div class="row">
+              <select id="projectList">
+                <option value="">None saved yet</option>
+              </select>
+              <button type="button" class="btn" id="btnOpen">Open</button>
+            </div>
+          </label>
+        </div>
+
+        <div class="panel">
+          <h2>Bring in charts</h2>
+          <p class="hint">JHora is installed on this machine. Import saved <code>.jhd</code> files, scan a folder, or start from the bundled earthquake set.</p>
+          <div class="actions stack">
+            <button type="button" class="btn" id="btnEarthquakes">Load 20 recent M6+ quakes</button>
+            <button type="button" class="btn" id="btnLatest">Show saved JHora report</button>
+            <button type="button" class="btn" id="btnScan">Scan JHora folders</button>
+            <label class="btn file">
+              Open .jhd files
+              <input id="jhdFiles" type="file" accept=".jhd,.JHD" multiple hidden />
+            </label>
+            <label class="btn file">
+              Import CSV
+              <input id="csvFile" type="file" accept=".csv,text/csv" hidden />
+            </label>
+            <a class="text-link" href="/static/events-template.csv" download>CSV template</a>
+          </div>
+          <label class="field">
+            <span>Custom folder</span>
+            <div class="row">
+              <input id="folderPath" type="text" placeholder="C:\path\to\charts" />
+              <button type="button" class="btn" id="btnScanCustom">Scan</button>
+            </div>
+          </label>
+        </div>
+
+        <div class="panel">
+          <h2>Add one event</h2>
+          <form id="manualForm" class="manual">
+            <input name="name" placeholder="Name" required />
+            <div class="row">
+              <input name="year" type="number" placeholder="Year" required />
+              <input name="month" type="number" min="1" max="12" placeholder="Mo" required />
+              <input name="day" type="number" min="1" max="31" placeholder="Day" required />
+            </div>
+            <div class="row">
+              <input name="hour" type="number" min="0" max="23" placeholder="Hr" value="12" />
+              <input name="minute" type="number" min="0" max="59" placeholder="Min" value="0" />
+              <input name="tz_offset_hours" type="number" step="0.25" placeholder="TZ e.g. 5.5" value="5.5" />
+            </div>
+            <div class="row">
+              <input name="latitude" type="number" step="0.0001" placeholder="Lat" required />
+              <input name="longitude" type="number" step="0.0001" placeholder="Lon" required />
+            </div>
+            <input name="city" placeholder="City" />
+            <button type="submit" class="btn">Add event</button>
+          </form>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="panel events-panel">
+          <div class="panel-head">
+            <h2>Events <span id="eventCount" class="count">0</span></h2>
+            <div class="actions">
+              <button type="button" class="btn ghost" id="btnExportJhd">Export as .jhd</button>
+              <button type="button" class="btn ghost" id="btnClear">Clear</button>
+            </div>
+          </div>
+          <div id="eventTable" class="table-wrap empty-note">No events yet. Load the earthquake sample or import JHora files.</div>
+        </div>
+
+        <div id="report" class="report hidden"></div>
+      </main>
+    </section>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+---
+description: Never upgrade the installed Jagannatha Hora; stay on version 7.66
+alwaysApply: true
+---
+
+# Jagannatha Hora stays on 7.66
+
+The installed program is Jagannatha Hora 7.6.6 at `C:\Program Files (x86)\Jagannatha Hora`. Do not upgrade it.
+
+When the app is opened and a dialog offers an update (wording includes "Ready to install update", "Downloaded … update and ready to install", or a prompt to press Yes), dismiss it. Choose No, Cancel, or close the dialog. Never press Yes. Never run `jh_update_auto.exe`. Do not turn on `AutoUpdateOn`.
+
+All chart work uses this 7.66 installation as it is.

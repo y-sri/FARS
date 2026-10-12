@@ -1,0 +1,182 @@
+[
+  {
+    "time_utc": "2026-09-25 21:23:03",
+    "magnitude": 6.6,
+    "latitude": -21.2982,
+    "longitude": 168.61,
+    "depth_km": 10,
+    "place": "80 km ENE of Tadine, New Caledonia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txpi"
+  },
+  {
+    "time_utc": "2026-09-20 09:17:35",
+    "magnitude": 6.4,
+    "latitude": -5.9021,
+    "longitude": 146.0922,
+    "depth_km": 104.3,
+    "place": "49 km NNE of Kainantu, Papua New Guinea",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc"
+  },
+  {
+    "time_utc": "2026-09-17 14:19:52",
+    "magnitude": 6.5,
+    "latitude": 52.9564,
+    "longitude": -171.5033,
+    "depth_km": 98,
+    "place": "177 km W of Nikolski, Alaska",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p"
+  },
+  {
+    "time_utc": "2026-09-11 21:23:55",
+    "magnitude": 6.5,
+    "latitude": -5.0271,
+    "longitude": 106.8682,
+    "depth_km": 372,
+    "place": "121 km NNE of Teluknaga, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk"
+  },
+  {
+    "time_utc": "2026-09-03 11:17:21",
+    "magnitude": 6.3,
+    "latitude": 52.1883,
+    "longitude": -169.3496,
+    "depth_km": 21,
+    "place": "89 km SSW of Nikolski, Alaska",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdvt"
+  },
+  {
+    "time_utc": "2026-09-02 23:46:56",
+    "magnitude": 6.2,
+    "latitude": -56.0727,
+    "longitude": -27.8507,
+    "depth_km": 111,
+    "place": "South Sandwich Islands region",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdrv"
+  },
+  {
+    "time_utc": "2026-08-24 14:10:17",
+    "magnitude": 6,
+    "latitude": -6.6551,
+    "longitude": 127.4245,
+    "depth_km": 10,
+    "place": "211 km NNE of Lospalos, Timor Leste",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn41"
+  },
+  {
+    "time_utc": "2026-08-23 13:44:53",
+    "magnitude": 6,
+    "latitude": 41.8495,
+    "longitude": 142.802,
+    "depth_km": 41,
+    "place": "32 km SSW of Honch\u014d, Japan",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmz6"
+  },
+  {
+    "time_utc": "2026-08-22 08:22:37",
+    "magnitude": 6.2,
+    "latitude": -60.364,
+    "longitude": -47.6571,
+    "depth_km": 10,
+    "place": "Scotia Sea",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrw"
+  },
+  {
+    "time_utc": "2026-08-20 18:00:18",
+    "magnitude": 6.7,
+    "latitude": -14.6324,
+    "longitude": -73.6403,
+    "depth_km": 99,
+    "place": "35 km ENE of Tambo, Peru",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81"
+  },
+  {
+    "time_utc": "2026-08-16 03:20:19",
+    "magnitude": 6.1,
+    "latitude": -14.4979,
+    "longitude": 167.2517,
+    "depth_km": 146,
+    "place": "63 km NNE of Port-Olry, Vanuatu",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl4w"
+  },
+  {
+    "time_utc": "2026-08-15 10:54:51",
+    "magnitude": 6.9,
+    "latitude": 2.9863,
+    "longitude": 98.9853,
+    "depth_km": 175,
+    "place": "9 km WNW of Pematangsiantar, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyk"
+  },
+  {
+    "time_utc": "2026-08-14 22:28:37",
+    "magnitude": 6.1,
+    "latitude": -8.2904,
+    "longitude": 121.5625,
+    "depth_km": 10,
+    "place": "62 km N of Ende, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkuc"
+  },
+  {
+    "time_utc": "2026-08-14 21:58:21",
+    "magnitude": 7.8,
+    "latitude": -8.3358,
+    "longitude": 121.3446,
+    "depth_km": 10,
+    "place": "66 km NNW of Ende, Indonesia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2"
+  },
+  {
+    "time_utc": "2026-08-12 11:47:12",
+    "magnitude": 6,
+    "latitude": -60.2463,
+    "longitude": -29.03,
+    "depth_km": 10,
+    "place": "South Sandwich Islands region",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk74"
+  },
+  {
+    "time_utc": "2026-08-10 12:34:28",
+    "magnitude": 7.4,
+    "latitude": 4.8836,
+    "longitude": -76.2182,
+    "depth_km": 108.2,
+    "place": "2 km SE of San Jos\u00e9 del Palmar, Colombia",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2"
+  },
+  {
+    "time_utc": "2026-08-05 07:43:23",
+    "magnitude": 6.3,
+    "latitude": -33.7178,
+    "longitude": 179.4326,
+    "depth_km": 190,
+    "place": "south of the Kermadec Islands",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti8i"
+  },
+  {
+    "time_utc": "2026-08-05 04:14:06",
+    "magnitude": 6.3,
+    "latitude": 5.1799,
+    "longitude": 125.2798,
+    "depth_km": 10,
+    "place": "32 km SW of Sarangani, Philippines",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x"
+  },
+  {
+    "time_utc": "2026-07-28 07:27:14",
+    "magnitude": 6.8,
+    "latitude": 32.6177,
+    "longitude": 130.6601,
+    "depth_km": 8,
+    "place": "The 2026 Kumamoto Region, Japan Earthquake",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9"
+  },
+  {
+    "time_utc": "2026-07-24 21:37:51",
+    "magnitude": 6,
+    "latitude": -13.9998,
+    "longitude": 166.9736,
+    "depth_km": 15,
+    "place": "63 km WSW of Sola, Vanuatu",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t37a"
+  }
+]
